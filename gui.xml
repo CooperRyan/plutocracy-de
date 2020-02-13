@@ -7,7 +7,7 @@
         <text id="collector_completed_hint" need_translate="false" value="Die Sammlung ist vollständig"/>
         <text id="collector_hint" need_translate="false" value="Beschaffe die gesamte Sammlung"/>
         <text id="economic_achievements" need_translate="false" value="WIRTSCHAFTLICHE ERRUNGENDCHAFTEN"/>
-        <text id="experience" need_translate="true" value=""/>
+        <text id="experience" need_translate="true" value="Erfahrung"/>
         <text id="in_developing" need_translate="false" value="In Entwicklung...(Mehr Text wird später hinzugefügt)"/>
         <text id="lock_achievement" need_translate="false" value="Du hast die %1 Errungenschaft verlornen!\nDie Sammlung von %2 wurde verringert."/>
         <text id="opened_achievements" need_translate="false" value="%1 von %2 erreicht"/>
@@ -3690,25 +3690,25 @@
         <text id="profit_per_step_desc" need_translate="true" value=""/>
     </user_statistic>
     <voting_event_popup>
-        <text id="dividends_header" need_translate="true" value=""/>
-        <text id="dividends_text" need_translate="true" value=""/>
-        <text id="hire_director_header" need_translate="true" value=""/>
-        <text id="hire_director_text" need_translate="true" value=""/>
-        <text id="loans_header" need_translate="true" value=""/>
-        <text id="loans_text" need_translate="true" value=""/>
-        <text id="negative_button_header" need_translate="true" value=""/>
-        <text id="neutral_button_header" need_translate="true" value=""/>
-        <text id="positive_button_header" need_translate="true" value=""/>
-        <text id="workers_decrease_header" need_translate="true" value=""/>
-        <text id="workers_decrease_text" need_translate="true" value=""/>
-        <text id="workers_increase_header" need_translate="true" value=""/>
-        <text id="workers_increase_text" need_translate="true" value=""/>
-        <text id="workplaces_header" need_translate="true" value=""/>
-        <text id="workplaces_text" need_translate="true" value=""/>
+        <text id="dividends_header" need_translate="true" value="Änderung der Dividenden"/>
+        <text id="dividends_text" need_translate="true" value="{shareholder_name},hält {shares_part}% der Anteile an{company_name},  schlägt vor die Dividenden von {dividends_before}% auf {dividends_after}% zu ändern. Dein Einkommen wird sich um $ {profit_change} ändern"/>
+        <text id="hire_director_header" need_translate="true" value="Wechsel des CEO"/>
+        <text id="hire_director_text" need_translate="true" value="{shareholder_name},hält {shares_part}% der Anteile an {company_name} , schlägt {new_director_name} als neuen CEO vor um {old_director_name} zu ersetzen. {shareholder_name} glaubt das der neue CEO kompetenter das Unternehmen leiten kann"/>
+        <text id="loans_header" need_translate="true" value="Aufnahme eines Kredites"/>
+        <text id="loans_text" need_translate="true" value="{shareholder_name},hält {shares_part}% der Anteile an {company_name}, schlägt vor ein Geschäftsdarlehen von $ {loan_sum} bei einem Satz von {loan_rate}% aufzunehmen um die Reserven aufzustocken. Er denkt das bald eine Finanzkrise kommt und man frühzeitig Reserven aufbauen sollte. Das Nettoeinkommen wird um $ {profit_change}" gemindert/>
+        <text id="negative_button_header" need_translate="true" value="Ablehnen"/>
+        <text id="neutral_button_header" need_translate="true" value="Enthaltung"/>
+        <text id="positive_button_header" need_translate="true" value="Zustimmen"/>
+        <text id="workers_decrease_header" need_translate="true" value="Entlassungen"/>
+        <text id="workers_decrease_text" need_translate="true" value="{shareholder_name},hält {shares_part}% der Anteile an {company_name}, schlägt vor die Anzahl der Arbeiter von {workers_before} auf {workers_after} zu reduzieren um unnötige Kosten zu vermeiden. Das Nettoeinkommen wird sich um $ {profit_change} vermindern"/>
+        <text id="workers_increase_header" need_translate="true" value="Erhöhung der Belegschaft"/>
+        <text id="workers_increase_text" need_translate="true" value="{shareholder_name},hält {shares_part}% der Anteile an {company_name}, ist sich sicher das {new_workers} neue Arbeiter angestellt werden sollten um so das Nettoeinkommen um $ {profit_change} zu erhöhen""/>
+        <text id="workplaces_header" need_translate="true" value="Betrieb erweitern"/>
+        <text id="workplaces_text" need_translate="true" value="{shareholder_name},hält{shares_part}% der Anteile an {company_name} und ist sich sicher, das es Zeit ist zu expandieren! Er schlägt vor freies Kapital in {new_workplaces} neue Arbeitsplätze zu investieren um so auf insgesamt {total_workplaces} zu kommen"/>
     </voting_event_popup>
     <voting_popup>
-        <text id="abstained" need_translate="false" value="Verzichten"/>
-        <text id="agreed" need_translate="false" value="Annehmen"/>
+        <text id="abstained" need_translate="false" value="Enthalten"/>
+        <text id="agreed" need_translate="false" value="Zustimmen"/>
         <text id="apply" need_translate="true" value="Anwenden"/>
         <text id="apply_button" need_translate="false" value="Ok"/>
         <text id="director_offer_hired" need_translate="false" value="Das Angebot wurde angenommen!"/>
